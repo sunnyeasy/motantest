@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.easy</groupId>
+    <artifactId>motantest</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>aserviceapi</module>
+        <module>aserviceimpl</module>
+        <module>motantestcommon</module>
+        <module>bserviceapi</module>
+        <module>bserviceimpl</module>
+        <module>serviceclient</module>
+    </modules>
+    <packaging>pom</packaging>
+
+    <properties>
+        <!-- log4j slf4j 日志相关包 -->
+        <slf4j.version>1.7.25</slf4j.version>
+        <log4j.version>2.8.2</log4j.version>
+        <motan.version>1.1.0</motan.version>
+
+        <springboot.version>1.5.4.RELEASE</springboot.version>
+
+    </properties>
+
+</project>
